@@ -95,7 +95,7 @@
                 this.ids = this.ids.substring(1, );
 
                 Axios
-                    .get('https://api.openweathermap.org/data/2.5/group?id='+ this.ids +'&units=metric&lang=pl&APPID=3fe9cdf1d7d7600581e4bd1c2908ae0f')
+                    .get('https://api.openweathermap.org/data/2.5/group?id='+ this.ids +'&units=metric&lang=pl&APPID=bbf2fe3977d6aced331100d4a140d137')
                     .then( (response) => {
                             this.info = response.data.list;
                         }

@@ -37,7 +37,7 @@
         mounted() {
 
             Axios
-                    .get('https://api.openweathermap.org/data/2.5/forecast?id='+ this.city_id +'&units=metric&lang=pl&APPID=3fe9cdf1d7d7600581e4bd1c2908ae0f&cnt=10')
+                    .get('https://api.openweathermap.org/data/2.5/forecast?id='+ this.city_id +'&units=metric&lang=pl&APPID=bbf2fe3977d6aced331100d4a140d137')
                     .then( (response) => {
 
                             this.city = response.data.city.name,
